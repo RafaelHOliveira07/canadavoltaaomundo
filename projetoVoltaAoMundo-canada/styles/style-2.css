@@ -1,0 +1,193 @@
+
+
+
+body{
+    background-color: rgb(203, 203, 203);
+}
+
+header{
+    position: relative;
+    background-color: rgb(117, 7, 7);
+    border: none;
+
+} 
+#historia{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.782), rgba(0, 0, 0, 0.749)), url('../img/historia-canada-2-640x320.webp');
+
+}
+#culinaria{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.782), rgba(0, 0, 0, 0.749)), url('../img/panquecaG.jpeg');
+    background-position: center;
+}
+
+#turismo{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.782), rgba(0, 0, 0, 0.749)), url('../img/main-canada-b311bbcf908341109fe08e8027cd8351.jpg');
+    background-position: center ;
+    
+   }
+
+   #curiosidade{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.782), rgba(0, 0, 0, 0.749)), url('../img/nascer-do-sol-de-toronto.jpg');
+    background-position: center ;
+    
+   }
+
+
+
+
+.img-inicio{
+
+  
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-inicio h1{
+
+    font-size: clamp(3em, 1em + 7vw, 5em);
+    letter-spacing: 5px;
+    color: #fff;
+    font-variant: small-caps;
+    
+
+}
+
+
+.container-fluid{
+   
+    flex-direction: column;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+    width: 80rem;
+    max-width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.43);
+
+}
+
+.container-fluid h2{
+    padding: 1rem;
+    color: rgb(133, 3, 3);
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+.container-fluid h1{
+    font-size: 2.5rem;
+    color: rgb(133, 3, 3);
+    font-variant: small-caps;
+   
+}
+
+.container-fluid p{
+    padding: 0.5rem 0;
+    max-width: 100%;
+    width: 55rem;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+ 
+
+}
+
+
+.center{
+    
+  
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    
+    
+ }
+
+
+
+.text-1{
+    max-width: 100%;
+    width: 80rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.img-cont{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+   
+    
+}
+
+.img-cont img{
+    width: 50rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.374);
+}
+
+.text-img{
+    
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+  
+   
+}
+
+
+.container-fluid ul li{
+    color: rgb(139, 15, 15) ;
+    list-style: decimal;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.respostas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+ th.red{
+    background-color: rgb(153, 4, 4);
+    color: #fff;
+}
+
+@media (max-width: 1200px){
+    .text-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+
+    aside h2{
+        text-align: center;
+    }
+    
+}

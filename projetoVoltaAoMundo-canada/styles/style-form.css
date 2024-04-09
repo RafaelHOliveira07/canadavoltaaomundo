@@ -1,0 +1,206 @@
+.content { float:left; width:92%; margin:0 4%; padding: 20px 0; }
+
+
+
+
+
+/*Seu Código*/
+
+.section-seu-codigo .content { float:left; padding:1em 0; }
+
+.section_title               { width: 100%; float:left; margin-bottom:1em; font-size:1.3em; font-weight: 300; text-align: center;  padding-bottom: 1em; }
+
+.box-artigo   { width:100%; float:left; padding: 0; }
+
+/*Formulario*/
+
+.formularioContato { 
+
+    max-width:500px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 3px 2px 1.3px  #cccccc5b; 
+    border: 2px solid rgba(0, 0, 0, 0.142);
+    position:relative; 
+    
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.formularioContato label input  { 
+
+    float:left; 
+    margin-bottom:1.2em; 
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: #a40707;
+    margin-bottom: 6px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:#393838; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #03030354 solid; 
+    border-radius:4px; 
+    padding:0.1em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+ label textarea { 
+
+    font-size:1em; 
+    width: 100%;
+    height: 5rem;
+    color:#555; 
+    border:1px #4c4c4c67 solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(231, 178, 178); border:1px rgb(230, 37, 37) solid; color:rgb(0, 0, 0);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(231, 178, 178); border:1px rgb(230, 50, 37) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(231, 178, 178); border:1px rgb(230, 53, 37) solid; color:rgb(0, 0, 0);}
+
+button { 
+
+    background-color:rgb(173, 20, 20); 
+    width:30%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.5s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+   background-color: #0d0d0d;
+   
+    transform: translatey(-5% );
+
+}
+
+/*Formulario*/
+
+/*Seu Download*/
+.section-seu-download          { padding:10px 0px; background-color:#f4f4f4; }
+.section-seu-download .content { float:left; padding:1em 0; }
+.box-download                  { width:100%; float:left; background:transparent; padding:1em; }
+
+/*FOOTER*/
+.main_footer          { background-color:#353535; color:#fff; font-size:0.875em; }
+.main_footer .content { padding:3em 0em; }
+
+.main_footer_copy       { background-color:#262626; width:100%; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy p     { font-family:'open_sanslight'; font-size:1em; color:#e1e0e0; height:20px; }
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by   { font-size:0.96em; }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
+
+
+/*Começa o Responsivo*/
+
+/*480PX BREAKPOINT*/
+/*480 dividido por 16 = 30em*/
+@media (min-width:30em){
+
+.boxBannerTopo { padding:1em 0; }
+
+}
+
+/*600PX BREAKPOINT*/
+/*600 dividido por 16 = 37,5em*/
+@media (min-width:37em){
+
+
+} 
+
+/*768PX BREAKPOINT*/
+/*768 dividido por 16 = 48em*/
+@media (min-width:48em){
+
+
+} 
+
+/*960PX BREAKPOINT*/
+/*960 dividido por 16 = 60em*/
+@media (min-width:60em){
+
+ .section-seu-codigo          { padding:20px 0px; }
+ .section-seu-codigo .content { width:80%; padding:1em 0; margin:0 10%; }
+
+.btn-download { width:35%; }
+
+}
+
+/*1280PX BREAKPOINT*/
+/*1280 dividido por 16 = 80em*/
+@media (min-width:80em){
+
+ 
+}
+
+/*1366PX BREAKPOINT*/
+/*1366 dividido por 16 = 85,375em*/
+@media (min-width:85em){
+
+ .content  { width:80%; margin:0 10%; }
+
+}
+
+/*1600PX BREAKPOINT*/
+/*1600 dividido por 16 = 100em*/
+@media (min-width:100em){
+
+
+}
+/*Fecha o Responsivo*/

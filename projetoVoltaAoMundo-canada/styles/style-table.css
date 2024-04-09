@@ -1,0 +1,51 @@
+.table>tbody{
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+margin-right: 3rem;
+  gap: 2rem;
+}
+
+.logo-canada{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+ 
+}
+.logo-canada>p{
+  margin-top: 1rem;
+}
+
+.admin-content{
+ max-width: 100%;
+ padding: 1rem;
+
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+table th,
+table td {
+  border-right: #999999 solid 1px;
+  font-size: 12px;
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: middle;
+ 
+
+}
+
+img{
+  width: 3rem;
+}
